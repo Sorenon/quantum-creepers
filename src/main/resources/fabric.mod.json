@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "qcreepers",
+  "version": "${version}",
+  "name": "Quantum Creepers",
+  "description": "A unique anti-griefing mod for creepers with an extensible API",
+  "authors": [
+    "Sorenon"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "MIT",
+  "icon": "assets/qcreepers/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.sorenon.qcreepers.impl.QuantumCreepersMod"
+    ],
+    "client": [
+      "net.sorenon.qcreepers.impl.QuantumCreepersModClient"
+    ],
+    "config": [
+      "net.sorenon.qcreepers.impl.QuantumCreepersConfig"
+    ]
+  },
+  "accessWidener": "qcreepers.accesswidener",
+  "mixins": [
+    "qcreepers.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x",
+    "conrad": ">=0.4.1"
+  },
+  "warn": {
+    "sodium": "<0.1.0"
+  }
+}

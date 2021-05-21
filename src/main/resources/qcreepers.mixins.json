@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.sorenon.qcreepers.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "AbstractBlockStateMixin",
+    "ChunkBlockLightProviderMixin",
+    "ChunkLightProviderMixin",
+    "ExplosionMixin",
+    "ServerWorldMixin",
+    "WorldChunkMixin"
+  ],
+  "client": [
+    "client.GameRendererMixin",
+    "client.WorldChunkMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

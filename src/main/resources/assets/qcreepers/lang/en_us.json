@@ -1,0 +1,6 @@
+{
+  "qcreepers:config/quantum_creeper_explosions": "Quantum Creeper Explosions",
+  "qcreepers:config/quantum_creeper_explosions.comment": "Whether regular creepers should cause quantum explosions",
+  "qcreepers:config/quantum_charged_creeper_explosions": "Quantum Charged Creeper Explosions",
+  "qcreepers:config/quantum_charged_creeper_explosions.comment": "Whether charged creepers should cause quantum explosions"
+}
