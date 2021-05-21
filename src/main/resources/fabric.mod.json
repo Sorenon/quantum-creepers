@@ -8,8 +8,9 @@
     "Sorenon"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/Sorenon/quantum-creepers",
+    "sources": "https://github.com/Sorenon/quantum-creepers",
+    "issues": "https://github.com/Sorenon/quantum-creepers/issues"
   },
   "license": "MIT",
   "icon": "assets/qcreepers/icon.png",
